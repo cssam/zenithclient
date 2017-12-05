@@ -1,0 +1,78 @@
+/* HeroesComponent's private CSS styles */
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 25em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 2.6em;
+  border-radius: 4px;
+}
+.heroes li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.heroes .text {
+  position: relative;
+  top: -3px;
+}
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.detail {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 120px;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .5em .5em .5em .5em;
+  height: 10.6em;
+  width: 30em;
+  border-radius: 4px;
+}
+/* footer */
+footer{
+  width: 99%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right:12px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(8, 75, 75);
+  color: rgb(252, 252, 252);
+ }
+
+ header {
+  background-color: #ced3b3;
+  color: white;
+  padding: 10px 20px;
+}
