@@ -3,15 +3,20 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "ng build --aot -prod",
     "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve"
   },
   "private": true,
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.9"
+  },
+
+
   "dependencies": {
+    "@angular/cli": "1.5.5",
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
